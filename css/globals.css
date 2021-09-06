@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+  --coal: #2c2c2c;
+  --void: #151518;
+  --night: #1E1E24;
+  --midnight: #272e38;
+  --evening: #363F4B;
+  --alto: #F2F2F2;
+  --cement: #E7E7E7;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+  color: white;
+  background: var(--void);
+  backface-visibility: hidden;
+}
+
+picture, img {
+  display: block;
+  max-width: 100%;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+a {
+	color: var(--naga);
+	text-decoration: none;
+}
